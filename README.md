@@ -42,6 +42,9 @@ Find the file `index.js` and complete the tasks.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+
+// Closure is where a "child" function has access to a "parent" functions variables and the global variables, a scope chain.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,8 +66,16 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+
+// Closure is used in the Console.log of the child function, you can tell because is invoking a variable from the outer function 
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+// Dan is always the same in dansRoll, and the number he rolls is random, we could change the name of who is rolling.
+
 c. What is the lexical scope of `newRoll`? 
+
+// The lexical scope of newRoll is personalDice where it has access to its variables
 
 ### Task 3 - Stretch Goals
 
